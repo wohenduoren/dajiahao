@@ -1,0 +1,30 @@
+1366:57ba6d4dfb8cd5454fe600233e300e21be390e03
+0
+1
+installed:1369:f3bacb0c5df0a8a046d2ef398c9108698fe4c993
+3
+mbr: js,x86_64,1,1.8.5,19.el7 70
+  repo: yum
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: elinks,x86_64,0,0.12,0.36.pre6.el7@a:dependson
+  depends_on: elinks,x86_64,0,0.12,0.36.pre6.el7@a
+mbr: elinks,x86_64,0,0.12,0.36.pre6.el7 70
+  repo: yum
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: nss_compat_ossl,x86_64,0,0.9.6,8.el7 70
+  repo: yum
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: elinks,x86_64,0,0.12,0.36.pre6.el7@a:dependson
+  depends_on: elinks,x86_64,0,0.12,0.36.pre6.el7@a
